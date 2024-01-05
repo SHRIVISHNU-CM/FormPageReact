@@ -1,0 +1,82 @@
+*{
+    padding: 0;
+    margin:0;
+    box-sizing: border-box;
+}
+.container{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+.sub-container{
+    border: 1px solid #000;
+    padding:15px 30px;
+    border-radius:10px;
+}
+.header{
+    text-align: center;
+    font-size: 25px;
+    color: #16167b;
+    padding: 10px;
+}
+.input-fields{
+    border:1px solid #a8adb2;
+    /* padding: 10px; */
+    margin: 10px auto;
+    border-radius:10px;
+    overflow:hidden
+    
+}
+input{
+    border: none;
+    outline: none;
+    padding:10px;
+    background-color: #a8adb2;
+}
+.login-button{
+    display:flex;
+    gap: 10px;
+    justify-content: center;
+}
+.last-button{
+    display:flex;
+    gap: 5px;
+    margin: 5px auto;
+}
+.SignUp{
+    padding:10px 20px;
+    background-color: #29a324;
+    border-radius:5px;
+    cursor:pointer;
+    border: none;
+    color: #fff;
+}
+.SignUp-gray{
+    padding: 10px 20px;
+     background-color: #9a9891;
+     border-radius: 5px;
+    cursor: pointer;
+    border: none;
+        color: #fff;
+}
+.Login{
+     
+    padding: 10px 20px;
+    background-color: #1868d9;
+    border-radius: 5px;
+    cursor: pointer;
+    border: none;
+    color: #fff;
+        
+}
+.Login-gray{
+    padding: 10px 20px;
+        background-color: #9a9891;
+        border-radius: 5px;
+        cursor: pointer;
+        border: none;
+        color: #fff;
+}
